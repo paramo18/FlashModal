@@ -8,7 +8,7 @@
 
 .flashModal-modal {
     position: fixed;
-    overflow: auto;
+    overflow-y: auto;
     background-color: rgba(0,0,0,0.4);
 }
 
@@ -220,10 +220,9 @@
 
 
 .flashModal-top-center{
-    top: 20%;
+    top: 1%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%);    
     flex-direction: column;  
 }
 
@@ -242,8 +241,7 @@
 .flashModal-bottom-center{
     left: 50%;
     bottom: 10%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); 
     flex-direction: column-reverse;
 }
 
